@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+
+    tools:context=".PinLocationMenu">
+
+    <ImageButton
+        android:id="@+id/GoBackButton"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:background="@drawable/abc_vector_test"
+        android:clickable="true"
+        android:onClick="returnToMain"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+
+
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corners"
+                android:text="Your location"
+                android:textColor="@color/black"
+                android:textIsSelectable="false"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+
+
+                android:dropDownWidth="match_parent"
+                android:entries="@array/category_array"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.118" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/Vidra"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:layout_marginEnd="110dp"
+                        android:layout_marginRight="110dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:contentDescription="TODO"
+                        android:onClick="getDataOfAnimal"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/otter_icon"
+                        android:tag="1"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/otter_icon" />
+
+
+                    <ImageButton
+                        android:id="@+id/Vulk"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/wolves_icon"
+                        android:onClick="getDataOfAnimal"
+                        android:tag="2"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/wolves_icon" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/DivaKoza"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:layout_marginEnd="110dp"
+                        android:layout_marginRight="110dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfAnimal"
+                        android:tag="3"
+                        android:src="@drawable/wild_goat_icon"
+                        tools:srcCompat="@drawable/wild_goat_icon" />
+
+                    <ImageButton
+                        android:id="@+id/Laluger"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfAnimal"
+                        android:tag="4"
+                        android:src="@drawable/european_ground_squirrel_icon"
+                        tools:srcCompat="@drawable/european_ground_squirrel_icon" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:gravity="center"
+                    android:paddingTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/MalukQstreb"
+                        android:layout_width="136dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="110dp"
+                        android:layout_marginRight="110dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfAnimal"
+                        android:tag="5"
+                        android:src="@drawable/maluk_qstreb_icon"
+                        tools:srcCompat="@drawable/maluk_qstreb_icon" />
+
+                    <ImageButton
+                        android:id="@+id/Smurch"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfPlant"
+                        android:src="@drawable/smurch_icon"
+                        android:tag="2"
+                        tools:srcCompat="@drawable/smurch_icon" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/Metlichina"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:layout_marginEnd="110dp"
+                        android:layout_marginRight="110dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfPlant"
+                        android:src="@drawable/metlichina_icon"
+                        android:tag="3"
+                        tools:srcCompat="@drawable/metlichina_icon" />
+
+                    <ImageButton
+                        android:id="@+id/Tociq"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfPlant"
+                        android:src="@drawable/tocia_icon"
+                        android:tag="4"
+                        tools:srcCompat="@drawable/tocia_icon" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="20dp">
+
+                    <ImageButton
+                        android:id="@+id/Hvoina"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:layout_marginEnd="110dp"
+                        android:layout_marginRight="110dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="getDataOfPlant"
+                        android:src="@drawable/hvoina_icon"
+                        android:tag="1"
+                        tools:srcCompat="@drawable/hvoina_icon" />
+
+                    <ImageButton
+                        android:id="@+id/Purchovka"
+                        android:layout_width="136dp"
+                        android:layout_height="142dp"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:onClick="getDataOfPlant"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/obiknovenna_purchovka_icon"
+                        android:tag="5"
+                        tools:srcCompat="@drawable/obiknovenna_purchovka_icon" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
