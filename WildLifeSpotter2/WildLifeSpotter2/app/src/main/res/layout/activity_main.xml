@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/PinLocation"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+
+        android:clickable="true"
+
+
+        android:insetLeft="3dp"
+        android:insetBottom="3dp"
+        android:onClick="launchPinLocation"
+        android:text="@string/pin_location"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+        android:textColor="@color/black"
+
+        android:textSize="15sp"
+
+        android:textStyle="normal"
+        app:backgroundTint="@color/butonzeleno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        tools:layout_constraintCircleRadius="15dp" />
+
+    <Button
+        android:id="@+id/browseMap"
+        android:layout_width="271dp"
+        android:layout_height="46dp"
+        android:clickable="true"
+        android:ellipsize="none"
+        android:insetLeft="3dp"
+        android:insetBottom="3dp"
+        android:onClick="launchMapMenu"
+        android:text="@string/browse_map"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:backgroundTint="@color/butonzeleno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="229dp"
+        android:layout_height="226dp"
+        app:layout_constraintBottom_toTopOf="@+id/PinLocation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456"
+        app:srcCompat="@drawable/wildlife_spotter_logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
