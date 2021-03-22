@@ -50,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="main" />
+        <entry key="$PROJECT_DIR$/../.." value="Dashkata" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -180,21 +180,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="274" key="AndroidCreateResourceFileDialog/0.0.1920.1040/1920.21.1680.1010@0.0.1920.1040" timestamp="1615699371511" />
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1615710667319">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1258" height="393" key="GridCell.Tab.0.bottom" timestamp="1616415237743">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.21.1680.1010@0.0.1920.1040" timestamp="1615710667319" />
-    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1615710667319">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1258" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1616415237743" />
+    <state width="1258" height="393" key="GridCell.Tab.0.center" timestamp="1616415237743">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040/1920.21.1680.1010@0.0.1920.1040" timestamp="1615710667319" />
-    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1615710667318">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1258" height="393" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1616415237743" />
+    <state width="1258" height="393" key="GridCell.Tab.0.left" timestamp="1616415237743">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040/1920.21.1680.1010@0.0.1920.1040" timestamp="1615710667318" />
-    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1615710667319">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1258" height="393" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1616415237743" />
+    <state width="1258" height="393" key="GridCell.Tab.0.right" timestamp="1616415237743">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040/1920.21.1680.1010@0.0.1920.1040" timestamp="1615710667319" />
+    <state width="1258" height="393" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1616415237743" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1616415330557">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1616415330557" />
   </component>
 </project>
