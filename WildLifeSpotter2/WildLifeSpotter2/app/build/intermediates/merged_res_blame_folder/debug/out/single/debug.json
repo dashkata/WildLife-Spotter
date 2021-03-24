@@ -64,12 +64,12 @@
         "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_metlichina_icon.png.flat",
-        "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\drawable\\metlichina_icon.png"
-    },
-    {
         "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_metlichina_icon.png.flat",
+        "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\drawable\\metlichina_icon.png"
     },
     {
         "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -148,12 +148,12 @@
         "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\drawable\\hvoina_icon.png"
     },
     {
-        "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wild_goat_icon.png.flat",
-        "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\drawable\\wild_goat_icon.png"
-    },
-    {
         "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wild_goat_icon.png.flat",
+        "source": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\src\\main\\res\\drawable\\wild_goat_icon.png"
     },
     {
         "merged": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
