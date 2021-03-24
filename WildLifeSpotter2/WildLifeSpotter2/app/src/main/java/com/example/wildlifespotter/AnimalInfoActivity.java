@@ -15,12 +15,7 @@ public class AnimalInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.animal_info);
-        TextView animal_name = (TextView)findViewById(R.id.Animal);
-        String animal_name_value = getIntent().getExtras().getString("animal_name_value");
-        animal_name.setText(animal_name_value);
-        TextView animal_info = (TextView)findViewById(R.id.Animal_info);
-        String animal_info_value = getIntent().getExtras().getString("animal_info_value");
-        animal_info.setText(animal_info_value);
+
 
 
     }
