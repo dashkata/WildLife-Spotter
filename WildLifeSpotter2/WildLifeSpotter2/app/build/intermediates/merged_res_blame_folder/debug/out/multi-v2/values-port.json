@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\Georgi\\Documents\\WildLife-Spotter\\WildLifeSpotter2\\WildLifeSpotter2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dashkata\\.gradle\\caches\\transforms-2\\files-2.1\\830e6c678393d35e5da62f071866c0fc\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Georgi\\.gradle\\caches\\transforms-2\\files-2.1\\9f7e7a548ad00e2e3c3268a409525997\\appcompat-1.1.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
