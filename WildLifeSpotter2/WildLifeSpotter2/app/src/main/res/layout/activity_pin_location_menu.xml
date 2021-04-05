@@ -88,35 +88,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center">
 
-                    <ImageButton
-                        android:id="@+id/Vidra"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:layout_marginEnd="110dp"
-                        android:layout_marginRight="110dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:contentDescription="TODO"
-                        android:onClick="getDataOfAnimal"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/otter_icon"
-                        android:tag="1"
-                        android:visibility="visible"
-                        tools:srcCompat="@drawable/otter_icon" />
 
-
-                    <ImageButton
-                        android:id="@+id/Vulk"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/wolves_icon"
-                        android:onClick="getDataOfAnimal"
-                        android:tag="2"
-                        android:visibility="visible"
-                        tools:srcCompat="@drawable/wolves_icon" />
                 </TableRow>
 
                 <TableRow
@@ -125,31 +97,7 @@
                     android:gravity="center"
                     android:paddingTop="20dp">
 
-                    <ImageButton
-                        android:id="@+id/DivaKoza"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:layout_marginEnd="110dp"
-                        android:layout_marginRight="110dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfAnimal"
-                        android:tag="3"
-                        android:src="@drawable/wild_goat_icon"
-                        tools:srcCompat="@drawable/wild_goat_icon" />
 
-                    <ImageButton
-                        android:id="@+id/Laluger"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfAnimal"
-                        android:tag="4"
-                        android:src="@drawable/european_ground_squirrel_icon"
-                        tools:srcCompat="@drawable/european_ground_squirrel_icon" />
                 </TableRow>
 
                 <TableRow
@@ -158,31 +106,7 @@
                     android:gravity="center"
                     android:paddingTop="20dp">
 
-                    <ImageButton
-                        android:id="@+id/MalukQstreb"
-                        android:layout_width="136dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="110dp"
-                        android:layout_marginRight="110dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfAnimal"
-                        android:tag="5"
-                        android:src="@drawable/maluk_qstreb_icon"
-                        tools:srcCompat="@drawable/maluk_qstreb_icon" />
 
-                    <ImageButton
-                        android:id="@+id/Smurch"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfPlant"
-                        android:src="@drawable/smurch_icon"
-                        android:tag="2"
-                        tools:srcCompat="@drawable/smurch_icon" />
                 </TableRow>
 
                 <TableRow
@@ -191,31 +115,7 @@
                     android:gravity="center"
                     android:paddingTop="20dp">
 
-                    <ImageButton
-                        android:id="@+id/Metlichina"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:layout_marginEnd="110dp"
-                        android:layout_marginRight="110dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfPlant"
-                        android:src="@drawable/metlichina_icon"
-                        android:tag="3"
-                        tools:srcCompat="@drawable/metlichina_icon" />
 
-                    <ImageButton
-                        android:id="@+id/Tociq"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfPlant"
-                        android:src="@drawable/tocia_icon"
-                        android:tag="4"
-                        tools:srcCompat="@drawable/tocia_icon" />
                 </TableRow>
 
                 <TableRow
@@ -224,31 +124,7 @@
                     android:gravity="center"
                     android:paddingTop="20dp">
 
-                    <ImageButton
-                        android:id="@+id/Hvoina"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:layout_marginEnd="110dp"
-                        android:layout_marginRight="110dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:scaleType="fitCenter"
-                        android:onClick="getDataOfPlant"
-                        android:src="@drawable/hvoina_icon"
-                        android:tag="1"
-                        tools:srcCompat="@drawable/hvoina_icon" />
 
-                    <ImageButton
-                        android:id="@+id/Purchovka"
-                        android:layout_width="136dp"
-                        android:layout_height="142dp"
-                        android:adjustViewBounds="true"
-                        android:background="@null"
-                        android:onClick="getDataOfPlant"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/obiknovenna_purchovka_icon"
-                        android:tag="5"
-                        tools:srcCompat="@drawable/obiknovenna_purchovka_icon" />
                 </TableRow>
 
             </TableLayout>

@@ -1,16 +1,17 @@
+com/example/wildlifespotter/BuildConfig.java
+ com.example.wildlifespotter.BuildConfig
+com/example/wildlifespotter/GetRegionVitosha.java
+ com.example.wildlifespotter.GetRegionVitosha
 com/example/wildlifespotter/PlantInfoActivity.java
  com.example.wildlifespotter.PlantInfoActivity
 com/example/wildlifespotter/AnimalInfoActivity.java
  com.example.wildlifespotter.AnimalInfoActivity
-com/example/wildlifespotter/BuildConfig.java
- com.example.wildlifespotter.BuildConfig
 com/example/wildlifespotter/FilterActivity.java
  com.example.wildlifespotter.FilterActivity
 com/example/wildlifespotter/BrowseMapMenu.java
  com.example.wildlifespotter.BrowseMapMenu
 com/example/wildlifespotter/PinLocationMenu.java
  com.example.wildlifespotter.PinLocationMenu
- com.example.wildlifespotter.PinLocationMenu$1
 com/example/wildlifespotter/MainActivity.java
  com.example.wildlifespotter.MainActivity
  com.example.wildlifespotter.MainActivity$1
