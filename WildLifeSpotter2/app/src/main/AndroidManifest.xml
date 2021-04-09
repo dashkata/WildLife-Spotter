@@ -15,12 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WildLifeSpotter">
         <activity android:name=".Login"></activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity"/><![CDATA[
             android:label="@string/title_activity_login"/>
-        <activity android:name=".PlantInfoActivity" />
-        <activity android:name=".AnimalInfoActivity" />
+
+        ]]>
         <activity android:name=".PinLocationMenu" />
-        <activity android:name=".FilterActivity" />
         <activity android:name=".BrowseMapMenu" />
         <activity android:name=".ItemSelect"/>
         <activity android:name=".Registration">
