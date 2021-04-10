@@ -5,7 +5,6 @@
     <string name="browse_map">Избери регион</string>
     <string name="back_to_browse_map">Back</string>
 
-
     <string-array name="category_array">
         <item>Изберете категория</item>
         <item>Животни</item>
