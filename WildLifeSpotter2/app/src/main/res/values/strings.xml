@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">WildLife Spotter</string>
-    <string name="your_location_is">Your location is -</string>
+    <string name="your_location_is">Вашата локация: </string>
+    <string name="pin_location">Покажи локация</string>
+    <string name="browse_map">Избери регион</string>
+    <string name="back_to_browse_map">Back</string>
+
 
     <string-array name="category_array">
-        <item>Set Category</item>
-        <item>Animals</item>
-        <item>Plants</item>
+        <item>Изберете категория</item>
+        <item>Животни</item>
+        <item>Растения</item>
     </string-array>
 
 <!--    <string-array name="region_array">-->
