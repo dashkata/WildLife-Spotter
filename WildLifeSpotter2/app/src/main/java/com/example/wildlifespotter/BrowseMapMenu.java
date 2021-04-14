@@ -33,6 +33,7 @@ import java.util.List;
 
 public class BrowseMapMenu extends AppCompatActivity{
 TextView tekst;
+TextView tekst2;
 FirebaseFirestore db = FirebaseFirestore.getInstance();
 CollectionReference Regions = db.collection("Regions");
 //private Query RegionsRef;
@@ -47,6 +48,7 @@ private Spinner spinner;
 
         spinner = findViewById(R.id.spinner2);
         tekst = findViewById(R.id.textView);
+        tekst2 = findViewById(R.id.textView3);
 
         List<String> categories = new ArrayList<>();
         categories.add(0, "Изберете регион");
@@ -58,6 +60,10 @@ private Spinner spinner;
         categories.add("Черноморска зона");
 
         ImageView img_krotushka = (ImageView) findViewById(R.id.imageView4);
+        ImageView img_ribarka = (ImageView) findViewById(R.id.imageView5);
+//        ImageView img_krotushka = (ImageView) findViewById(R.id.imageView6);
+//        ImageView img_krotushka = (ImageView) findViewById(R.id.imageView4);
+
 
         ArrayAdapter<String> dataAdapter;
         dataAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, categories);
@@ -85,7 +91,9 @@ private Spinner spinner;
                         img.setImageResource(R.drawable.map_dunavska);
 
                         img_krotushka.setVisibility(View.VISIBLE);
-
+                        img_ribarka.setVisibility(View.VISIBLE);
+                        tekst.setVisibility(View.VISIBLE);
+                        tekst2.setVisibility(View.VISIBLE);
 
                         DocumentReference docRef = db.collection("Regions").document("Balkanska_krotushka");
                         docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
@@ -108,29 +116,113 @@ private Spinner spinner;
                             }
                         });
 
+                        DocumentReference docRef2 = db.collection("Regions").document("Belobuza_ribarka");
+                        docRef2.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot document2 = task.getResult();
+                                    if (document2.exists()) {
+                                        Log.d("слави трифонов", "DocumentSnapshot data: " + document2.getData());
 
+                                        tekst2.setMovementMethod(new ScrollingMovementMethod());
+                                        tekst2.setText("" + document2.getData());
+
+                                    } else {
+                                        Log.d("слави трифонов", "No such document");
+                                    }
+                                } else {
+                                    Log.d("слави трифонов", "get failed with ", task.getException());
+                                }
+                            }
+                        });
                     }
                     if(parent.getItemAtPosition(position).equals("Старопланинска област")){
                         ImageView img= (ImageView) findViewById(R.id.imageView3);
                         img.setImageResource(R.drawable.map_stara_planina);
 
                         img_krotushka.setVisibility(View.INVISIBLE);
+                        img_ribarka.setVisibility(View.INVISIBLE);
+                        tekst.setVisibility(View.INVISIBLE);
+                        tekst2.setVisibility(View.INVISIBLE);
+
+                        DocumentReference docRef = db.collection("Regions").document("Andreev_eupolibotrus");
+                        docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot document = task.getResult();
+                                    if (document.exists()) {
+                                        Log.d("слави трифонов", "DocumentSnapshot data: " + document.getData());
+
+                                        tekst.setMovementMethod(new ScrollingMovementMethod());
+                                        tekst.setText("" + document.getData());
+
+                                    } else {
+                                        Log.d("слави трифонов", "No such document");
+                                    }
+                                } else {
+                                    Log.d("слави трифонов", "get failed with ", task.getException());
+                                }
+                            }
+                        });
+
+                        DocumentReference docRef2 = db.collection("Regions").document("Glavoch");
+                        docRef2.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                if (task.isSuccessful()) {
+                                    DocumentSnapshot document2 = task.getResult();
+                                    if (document2.exists()) {
+                                        Log.d("слави трифонов", "DocumentSnapshot data: " + document2.getData());
+
+                                        tekst2.setMovementMethod(new ScrollingMovementMethod());
+                                        tekst2.setText("" + document2.getData());
+
+                                    } else {
+                                        Log.d("слави трифонов", "No such document");
+                                    }
+                                } else {
+                                    Log.d("слави трифонов", "get failed with ", task.getException());
+                                }
+                            }
+                        });
                     }
                     if(parent.getItemAtPosition(position).equals("Краищенско - средногорска зона")){
                         ImageView img= (ImageView) findViewById(R.id.imageView3);
                         img.setImageResource(R.drawable.map_sredna_gora);
+
+                        img_krotushka.setVisibility(View.INVISIBLE);
+                        img_ribarka.setVisibility(View.INVISIBLE);
+                        tekst.setVisibility(View.INVISIBLE);
+                        tekst2.setVisibility(View.INVISIBLE);
                     }
                     if(parent.getItemAtPosition(position).equals("Тракийско - странджанска зона")){
                         ImageView img= (ImageView) findViewById(R.id.imageView3);
                         img.setImageResource(R.drawable.map_strandja);
+
+                        img_krotushka.setVisibility(View.INVISIBLE);
+                        img_ribarka.setVisibility(View.INVISIBLE);
+                        tekst.setVisibility(View.INVISIBLE);
+                        tekst2.setVisibility(View.INVISIBLE);
                     }
                     if(parent.getItemAtPosition(position).equals("Рило - родопска зона")){
                         ImageView img= (ImageView) findViewById(R.id.imageView3);
                         img.setImageResource(R.drawable.map_rila_rodopi);
+
+                        img_krotushka.setVisibility(View.INVISIBLE);
+                        img_ribarka.setVisibility(View.INVISIBLE);
+                        tekst.setVisibility(View.INVISIBLE);
+                        tekst2.setVisibility(View.INVISIBLE);
                     }
                     if(parent.getItemAtPosition(position).equals("Черноморска зона")){
                         ImageView img= (ImageView) findViewById(R.id.imageView3);
                         img.setImageResource(R.drawable.map_cherno_more);
+
+                        img_krotushka.setVisibility(View.INVISIBLE);
+                        img_ribarka.setVisibility(View.INVISIBLE);
+                        tekst.setVisibility(View.INVISIBLE);
+                        tekst2.setVisibility(View.INVISIBLE);
                     }
                 }
             }

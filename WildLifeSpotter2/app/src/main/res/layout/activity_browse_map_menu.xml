@@ -71,6 +71,42 @@
             app:layout_constraintTop_toBottomOf="@+id/spinner2"
             app:srcCompat="@drawable/balkanska_krotushka_icon" />
 
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/imageView5"
+            android:layout_width="130dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/belobuza_ribarka_icon" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textView3"
+            android:layout_width="213dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<!--        <ImageView-->
+<!--            android:visibility="invisible"-->
+<!--            android:id="@+id/imageView6"-->
+<!--            android:layout_width="130dp"-->
+<!--            android:layout_height="122dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/imageView5"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/imageView5"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/imageView5"-->
+<!--            app:srcCompat="@drawable/obiknovenna_purchovka_icon" />-->
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
